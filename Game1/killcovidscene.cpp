@@ -1,7 +1,5 @@
 ﻿#include "killcovidscene.h"
 
-#include <iostream>
-
 KillCovidScene::KillCovidScene(user *_player, int hScore, int yScore, bool continueFlag)
 {
     player = _player;

@@ -1,7 +1,5 @@
 #include "virus.h"
 
-#include <iostream>
-
 Virus::Virus(int _t, int _x, int _y, int _r, QObject *parent) : QObject(parent)
 {
     dead = false;

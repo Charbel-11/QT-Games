@@ -1,7 +1,6 @@
 #include "usersdata.h"
 #include <fstream>
 #include <QDirIterator>
-#include <iostream>
 
 std::vector<user*> usersData::allUsers;
 std::vector<int> usersData::topScoresG1;

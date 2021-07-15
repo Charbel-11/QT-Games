@@ -1,8 +1,8 @@
 #include "signinwidget.h"
-#include <authenticationwidget.h>
-#include <gamechoicewidget.h>
-#include <helper.h>
-#include <usersdata.h>
+#include "authenticationwidget.h"
+#include "gamechoicewidget.h"
+#include "helper.h"
+#include "../Users/usersdata.h"
 
 SignInWidget::SignInWidget(QWidget *parent) : QWidget(parent){
     //Initialize widgets

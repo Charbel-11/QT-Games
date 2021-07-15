@@ -6,7 +6,7 @@
 #ifndef SCORES_H
 #define SCORES_H
 
-#include <gameinfowidget.h>
+#include "gameinfowidget.h"
 #include <QtCharts/QLineSeries>
 #include <QtCharts/QChart>
 #include <QtCharts/QChartView>

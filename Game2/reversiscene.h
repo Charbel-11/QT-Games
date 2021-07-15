@@ -5,11 +5,11 @@
 #ifndef REVERSISCENE_H
 #define REVERSISCENE_H
 
-#include <helper.h>
-#include <gamechoicewidget.h>
+#include "../UI/helper.h"
+#include "../UI/gamechoicewidget.h"
 #include <fstream>
 #include <QTimer>
-#include <usersdata.h>
+#include "../Users/usersdata.h"
 #include <QCloseEvent>
 
 class ReversiScene : public QGraphicsScene

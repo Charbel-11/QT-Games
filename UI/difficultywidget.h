@@ -5,7 +5,7 @@
 #ifndef DIFFICULTYWIDGET_H
 #define DIFFICULTYWIDGET_H
 
-#include <gameinfowidget.h>
+#include "gameinfowidget.h"
 
 class DifficultyWidget : public QWidget
 {

@@ -1,8 +1,8 @@
 #include "signupwidget.h"
-#include <usersdata.h>
-#include <helper.h>
-#include <authenticationwidget.h>
-#include <gamechoicewidget.h>
+#include "helper.h"
+#include "authenticationwidget.h"
+#include "gamechoicewidget.h"
+#include "../Users/usersdata.h"
 
 signupWidget::signupWidget(QWidget *parent) : QWidget(parent)
 {

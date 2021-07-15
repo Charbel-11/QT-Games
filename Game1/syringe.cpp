@@ -1,7 +1,5 @@
 #include "syringe.h"
 
-#include <iostream>
-
 Syringe::Syringe(int _x, int _y, int _r, QObject *parent) : QObject(parent)
 {
     xC = _x; yC = _y;

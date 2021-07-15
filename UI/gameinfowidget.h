@@ -5,13 +5,13 @@
 #ifndef GAMEINFOWIDGET_H
 #define GAMEINFOWIDGET_H
 
-#include <gamechoicewidget.h>
-#include <helper.h>
-#include <scores.h>
-#include <instructionswidget.h>
-#include <difficultywidget.h>
-#include <killcovidscene.h>
-#include <reversiscene.h>
+#include "gamechoicewidget.h"
+#include "helper.h"
+#include "scores.h"
+#include "instructionswidget.h"
+#include "difficultywidget.h"
+#include "../Game1/killcovidscene.h"
+#include "../Game2/reversiscene.h"
 
 class gameInfoWidget : public QWidget
 {

@@ -1,7 +1,7 @@
 #include "gamechoicewidget.h"
-#include <authenticationwidget.h>
-#include <gameinfowidget.h>
-#include <helper.h>
+#include "authenticationwidget.h"
+#include "gameinfowidget.h"
+#include "helper.h"
 
 GameChoiceWidget::GameChoiceWidget(user* _player, QWidget *parent) : QWidget(parent)
 {

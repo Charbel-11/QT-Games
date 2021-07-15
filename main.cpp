@@ -1,6 +1,6 @@
 #include <QApplication>
-#include <authenticationwidget.h>
-#include <helper.h>
+#include <UI/authenticationwidget.h>
+#include <UI/helper.h>
 
 int main(int argc, char **argv)
 {

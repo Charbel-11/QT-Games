@@ -1,6 +1,6 @@
 #include "gameinfowidget.h"
 #include <QFileInfo>
-#include <usersdata.h>
+#include "../Users/usersdata.h"
 
 bool fileExists(QString path) {
     QFileInfo check_file(path);

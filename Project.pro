@@ -2,44 +2,44 @@ QT += widgets
 QT += charts
 
 SOURCES += \
-    arrow.cpp \
-    authenticationwidget.cpp \
-    difficultywidget.cpp \
-    gamechoicewidget.cpp \
-    gameinfowidget.cpp \
-    helper.cpp \
-    instructionswidget.cpp \
-    killcovidscene.cpp \
+    Game1/arrow.cpp \
+    UI/authenticationwidget.cpp \
+    UI/difficultywidget.cpp \
+    UI/gamechoicewidget.cpp \
+    UI/gameinfowidget.cpp \
+    UI/helper.cpp \
+    UI/instructionswidget.cpp \
+    Game1/killcovidscene.cpp \
     main.cpp \
-    reversiscene.cpp \
-    scores.cpp \
-    signinwidget.cpp \
-    signupwidget.cpp \
-    syringe.cpp \
-    user.cpp \
-    usersdata.cpp \
-    virus.cpp
+    Game2/reversiscene.cpp \
+    UI/scores.cpp \
+    UI/signinwidget.cpp \
+    UI/signupwidget.cpp \
+    Game1/syringe.cpp \
+    Users/user.cpp \
+    Users/usersdata.cpp \
+    Game1/virus.cpp
 
 HEADERS += \
-    arrow.h \
-    authenticationwidget.h \
-    difficultywidget.h \
-    gamechoicewidget.h \
-    gameinfowidget.h \
-    helper.h \
-    instructionswidget.h \
-    killcovidscene.h \
-    reversiscene.h \
-    scores.h \
-    signinwidget.h \
-    signupwidget.h \
-    syringe.h \
-    user.h \
-    usersdata.h \
-    virus.h
+    Game1/arrow.h \
+    UI/authenticationwidget.h \
+    UI/difficultywidget.h \
+    UI/gamechoicewidget.h \
+    UI/gameinfowidget.h \
+    UI/helper.h \
+    UI/instructionswidget.h \
+    Game1/killcovidscene.h \
+    Game2/reversiscene.h \
+    UI/scores.h \
+    UI/signinwidget.h \
+    UI/signupwidget.h \
+    Game1/syringe.h \
+    Users/user.h \
+    Users/usersdata.h \
+    Game1/virus.h
 
 RESOURCES += \
-    resources_images.qrc
+    resources.qrc
 
 #QMAKE_CXXFLAGS += -pg
 #QMAKE_LFLAGS += -pg

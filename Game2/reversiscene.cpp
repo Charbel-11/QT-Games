@@ -1,5 +1,4 @@
 #include "reversiscene.h"
-#include <iostream>
 
 ReversiScene::ReversiScene(user* _player, bool continueFlag)
 {

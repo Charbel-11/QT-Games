@@ -1,7 +1,5 @@
 #include "arrow.h"
 
-#include <iostream>
-
 Arrow::Arrow(int _x, int _y, int _r, QObject *parent) : QObject(parent)
 {
     xC = _x; yC = _y;

@@ -5,13 +5,13 @@
 #ifndef KILLCOVIDSCENE_H
 #define KILLCOVIDSCENE_H
 
-#include <helper.h>
-#include <gamechoicewidget.h>
-#include <user.h>
-#include <syringe.h>
-#include <virus.h>
-#include <arrow.h>
-#include <usersdata.h>
+#include "../UI/helper.h"
+#include "../UI/gamechoicewidget.h"
+#include "../Users/user.h"
+#include "../Game1/syringe.h"
+#include "../Game1/virus.h"
+#include "../Game1/arrow.h"
+#include "../Users/usersdata.h"
 #include <fstream>
 #include <QCloseEvent>
 

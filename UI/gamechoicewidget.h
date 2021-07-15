@@ -7,7 +7,7 @@
 
 #include <QWidget>
 #include <QtWidgets>
-#include <user.h>
+#include "../Users/user.h"
 
 class GameChoiceWidget : public QWidget
 {

@@ -1,19 +1,19 @@
 <RCC>
     <qresource prefix="/">
-        <file>images/covidPic.jpeg</file>
-        <file>images/LargeVirus.png</file>
-        <file>images/MediumVirus.png</file>
-        <file>images/SmallVirus.png</file>
         <file>images/Background.jpg</file>
-        <file>images/Arrow.png</file>
+        <file>images/BlackDisc.png</file>
+        <file>images/covidPic.jpeg</file>
+        <file>images/EmptyDisc.png</file>
+        <file>images/EmptyDiscToSelect.png</file>
+        <file>images/LargeVirus.png</file>
         <file>images/LargeVirusSmashed.png</file>
+        <file>images/MediumVirus.png</file>
         <file>images/MediumVirusSmashed.png</file>
+        <file>images/ReversiLogo.png</file>
+        <file>images/SmallVirus.png</file>
         <file>images/SmallVirusSmashed.png</file>
         <file>images/syringe.png</file>
         <file>images/WhiteDisc.png</file>
-        <file>images/BlackDisc.png</file>
-        <file>images/EmptyDisc.png</file>
-        <file>images/EmptyDiscToSelect.png</file>
-        <file>images/ReversiLogo.png</file>
+        <file>images/Arrow.png</file>
     </qresource>
 </RCC>

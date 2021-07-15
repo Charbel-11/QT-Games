@@ -1,10 +1,10 @@
 #include "authenticationwidget.h"
-#include <signinwidget.h>
-#include <signupwidget.h>
-#include <gamechoicewidget.h>
-#include <user.h>
-#include <helper.h>
-#include <usersdata.h>
+#include "signinwidget.h"
+#include "signupwidget.h"
+#include "gamechoicewidget.h"
+#include "../Users/user.h"
+#include "helper.h"
+#include "../Users/usersdata.h"
 
 AuthenticationWidget::AuthenticationWidget(QWidget *parent) : QWidget(parent) {
     //Initialize components

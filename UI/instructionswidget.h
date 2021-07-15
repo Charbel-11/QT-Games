@@ -5,7 +5,7 @@
 #ifndef INSTRUCTIONSWIDGET_H
 #define INSTRUCTIONSWIDGET_H
 
-#include <gameinfowidget.h>
+#include "gameinfowidget.h"
 
 class InstructionsWidget : public QWidget
 {
